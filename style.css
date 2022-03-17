@@ -1,0 +1,50 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+
+    background: #ad22f1;
+}
+.login{
+    /*text-align: center;*/
+    border: 1px solid #ccc;
+    width: 210px;
+    background: #fefefe;
+    padding: 0 30px 30px 30px;
+    margin: 10% auto;
+
+}
+
+.login h1{
+    color: #c233f8;
+    font-weight: bold;
+    text-align: center;
+}
+
+label{
+    color: #c233f8;
+    font-size: 20px;
+    
+}
+
+input{
+    margin: 10px 0;
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid #ad22f1;
+    
+   
+}
+
+button{
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    background: linear-gradient(0.25turn, #ad22f1, #e04cfd);
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
