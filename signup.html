@@ -11,10 +11,19 @@
     <link rel="stylesheet" href="style.css">
     <title>Login form</title>
 </head>
-<body style=background:#ad22f1>
-    <div class="container">
-        <div class="login">
-            <h1>Login</h1>
+<body>
+    <div class="container-signup">
+        <div class="login-descri">
+            <div class="welcome-text">
+                <h2>Welcome</h2>
+                <p><a href="#">JoeJunior.dev</a> is a software developpement plateform to shares knowlegdes and skills tech new informations created by Groukam developpers</p>
+            </div>
+            <div class="learn-more">
+                <button type="submit">lear more</button>
+            </div>
+        </div>
+        <div class="signup">
+            <h1 class="title">Create a new count</h1>
             <form action="#">
                 <label for="userName">
                     <i class="fa fa-user"></i>
@@ -24,11 +33,16 @@
                 <label for="password">
                     <i class="fa fa-lock"></i>
                     Password
-                    <input type="password" id="password">
+                <input type="text" id="email">
                 </label><br>
-                <button class="login-btn">login</button>                 
+                <label for="password-confirm">
+                    <i class="fa fa-lock"></i>
+                    Confirm Password 
+                    <input type="password" id="password-confirm">
+                </label><br>
+                <button class="login-btn">Sign up</button>                 
             </form>
-            <a href="./signup.html">Sign up</a>
+            <a href="./login.html" class="signupLink">login</a>
         </div>
     </div>
 </body>

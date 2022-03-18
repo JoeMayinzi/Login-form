@@ -2,26 +2,49 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Space Grotesk', sans-serif;
 
-    background: #ad22f1;
+    background: #edf2f7;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 10% 0;
 }
 .login{
     /*text-align: center;*/
     border: 1px solid #ccc;
     width: 210px;
+    /*margin: 20% auto;*/
     background: #fefefe;
     padding: 0 30px 30px 30px;
-    margin: 10% auto;
+    border: none;
+    
+    
 
 }
 
 .login h1{
-    color: #c233f8;
+    color: #ad22f1;
     font-weight: bold;
     text-align: center;
 }
 
+.login a{
+    color: #ad22f1;
+    text-decoration: none;
+    float: right;
+    font-weight: bold;
+}
+
+.login a:hover{
+    color: #ad22f1;
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+
 label{
-    color: #c233f8;
+    color: #ad22f1;
     font-size: 20px;
     
 }
@@ -42,9 +65,104 @@ button{
     border-radius: 50px;
     border: none;
     color: #fff;
-    background: linear-gradient(0.25turn, #ad22f1, #e04cfd);
+    /*background: linear-gradient(0.25turn, #ad22f1, #e04cfd);*/
+    background: #ad22f1;
     margin-top: 10px;
+    margin-bottom: 5px;
     font-weight: bold;
     font-size: 20px;
+}
+
+/* Signup */
+.container-signup{
+    display: flex;
+    justify-content: center;
+    margin: 10% 0;
+}
+.signup{
+    /*text-align: center;*/
+    border: 1px solid #ccc;
+    width: 210px;
+    /*margin: 20% auto;*/
+    background: #fefefe;
+    padding: 0 30px 30px 30px;
+    border: none;
     
+    
+
+}
+
+.signup h1{
+    color: #ad22f1;
+    font-weight: bold;
+    text-align: center;
+}
+
+.signup h2{
+    color: #ad22f1;
+    text-decoration: none;
+    float: right;
+    font-weight: bold;
+}
+
+.signup a:hover{
+    color: #ad22f1;
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+
+.signup .signupLink{
+    color: #ad22f1;
+    text-decoration: none;
+    float: right;
+    font-weight: bold;
+}
+
+.signup .signupLink:hover{
+    color: #ad22f1;
+    text-decoration: underline;
+    font-weight: bold;
+
+ }
+
+.login-descri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    width: 210px;
+    background: #ad22f1;
+    padding: 0 30px 30px 30px;
+    color: #f9f4fe;
+}
+
+.login-descri h2{
+    text-align: center;
+}
+
+.login-descri p{
+    font-weight: bold;
+}
+
+.login-descri p a{
+    color: #f9f4fe;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.learn-more button{
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    /*background: linear-gradient(0.25turn, #ad22f1, #e04cfd);*/
+    background: transparent;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid #f9f4fe;;
 }
